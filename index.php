@@ -10,6 +10,7 @@ and open the template in the editor.
         <title>Krekó Henriett</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js.js" type="text/javascript"></script>
+        <link href="stilus.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header>Városlista:</header>
@@ -18,9 +19,14 @@ and open the template in the editor.
                 <form class="urlap">
                     <label for="vnev">Városnév:</label>
                     <input type="text" id="vnev" name="vnev">
-                    <p id="javaslat"></p>
+                    <!--<p id="javaslat"></p>-->
+                    <div id="legordulo">
                         
+                    </div>
                 </form>
+                <article>
+                    <p id="javaslat"></p>
+                </article>
             </section>
         </main>
         
